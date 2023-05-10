@@ -28,7 +28,7 @@ return {
         vim.fn.setreg("@+", path)
         vim.notify('Copied "' .. path .. '" to the clipboard!')
       end,
-      desc = "Some test desc",
+      desc = "Copying relative path of active buffer to clipboard",
     },
   },
   t = {
