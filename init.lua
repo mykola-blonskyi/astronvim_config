@@ -48,7 +48,7 @@ return {
       --   return true
       -- end
     },
-    -- enable servers that you already have installed without mason
+    -- enable servers th at you already have installed without mason
     servers = {
       -- "pyright"
     },
