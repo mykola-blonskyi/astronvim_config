@@ -9,4 +9,7 @@ return {
   --     require("lsp_signature").setup()
   --   end,
   -- },
+  "projekt0n/github-nvim-theme",
+  "morhetz/gruvbox",
+  "folke/tokyonight.nvim",
 }

@@ -74,13 +74,4 @@ return {
   --     }, { mode = "n", prefix = "<leader>" })
   --   end,
   -- },
-  {
-    "projekt0n/github-nvim-theme",
-  },
-  {
-    "morhetz/gruvbox",
-  },
-  {
-    "folke/tokyonight.nvim",
-  },
 }
