@@ -12,5 +12,4 @@ return {
   "projekt0n/github-nvim-theme",
   "morhetz/gruvbox",
   "folke/tokyonight.nvim",
-  "nvim-lualine/lualine.nvim",
 }

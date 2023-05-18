@@ -23,11 +23,7 @@ return {
     -- quick save
     -- ["<C-s>"] = { ":w!<cr>", desc = "Save File" },  -- change description but the same command
     ["<F2>"] = {
-      function()
-        local path = vim.fn.expand "%:."
-        vim.fn.setreg("@+", path)
-        vim.notify('Copied "' .. path .. '" to the clipboard!')
-      end,
+      ":let @* = expand('%:.')<cr>",
       desc = "Copying relative path of active buffer to clipboard",
     },
   },
