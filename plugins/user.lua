@@ -11,5 +11,5 @@ return {
   -- },
   "projekt0n/github-nvim-theme",
   "morhetz/gruvbox",
-  -- "folke/tokyonight.nvim",
+  "folke/tokyonight.nvim",
 }
